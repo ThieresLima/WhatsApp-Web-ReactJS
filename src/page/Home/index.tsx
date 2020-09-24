@@ -42,7 +42,7 @@ export default function Home() {
                         <Styles.DesconectText>
                             Você será desconectado <br />
                             automaticamente após um longo <br />
-                            praxo de inatividade.
+                            prazo de inatividade.
                         </Styles.DesconectText>
                     </Styles.DesconectContainer>
                 </Styles.QrcodeContainer>
