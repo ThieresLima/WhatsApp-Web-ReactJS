@@ -28,16 +28,17 @@ export const WhatsappText = styled.p`
     margin-left: 10px
 `;
 
-export const ContainerMain = styled.div`
+export const ContainerMain = styled.div` 
     display: flex;
     width: 1000px;
-    height: 896px;
+    height: 600px;
     padding: 40px;
     background: #FFF;
     margin: 0 auto;
     margin-top: -120px;
     border-radius: 5px;
 `;
+
 
 export const Main = styled.div`
     padding: 22px;
@@ -70,7 +71,55 @@ export const TextHelp = styled.p`
     margin-top: 28px;
 `;
 
+export const QrcodeContainer = styled.div``;
+
 export const Qrcode = styled.img`
     width: 400px;
     height: 400px;
+`;
+
+export const ConectContainer = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const Conect = styled.input`
+    align-items: center;
+    justify-content: center;
+`;
+
+export const ConectText = styled.p`
+    color: #959ba0;
+    margin-left: 4px;
+`;
+
+export const DesconectContainer = styled.div`
+    background: #038AAE;
+    padding: 14px;
+    width: 240px;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 auto;
+    margin-top: 6px;
+`;
+
+export const DesconectText = styled.p`
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+`;
+
+export const VideoContainer = styled.div`
+    width: 1000px;
+    height: 458px;
+    background: #F9F9F9;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -80px;
+`;
+
+export const Video = styled.img`
+    margin-top: 70px;
 `;
